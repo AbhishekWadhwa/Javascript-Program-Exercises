@@ -6,5 +6,6 @@ function show() {
         for (i = 1; i <= no; i++) {
             fact = fact * i;
         }
-        document.getElementById("answer").innerHTML = fact;
+        fact = parseInt(fact);
+        document.getElementById("answer1").innerHTML = fact;
     }

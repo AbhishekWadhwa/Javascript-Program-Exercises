@@ -10,8 +10,8 @@ function palindrome() {
             temp = temp * 10 + a;
         }
         if (temp == b) {
-             document.getElementById("answer").innerHTML = "Palindrome number";
+             document.getElementById("answer2").innerHTML = "Palindrome number";
         } else {
-             document.getElementById("answer").innerHTML = "Not Palindrome number";
+             document.getElementById("answer2").innerHTML = "Not Palindrome number";
         }
     }
